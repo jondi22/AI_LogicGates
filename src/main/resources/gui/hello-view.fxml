@@ -7,46 +7,46 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.HelloController">
    <children>
       <ImageView fx:id="img1" fitHeight="1296.0" fitWidth="2310.0" layoutX="-1410.0" layoutY="-648.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/HD-wallpaper-java-logo.jpg" />
+            <Image url="@../img/HD-wallpaper-java-logo.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="img3" fitHeight="78.0" fitWidth="130.0" layoutX="156.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/and.png" />
+            <Image url="@../img/and.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img5" fitHeight="78.0" fitWidth="130.0" layoutX="376.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/1200px-Nand-gate-en.svg.png" />
+            <Image url="@../img/1200px-Nand-gate-en.svg.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img6" fitHeight="78.0" fitWidth="130.0" layoutX="376.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/1280px-Or-gate-en.svg.png" />
+            <Image url="@../img/1280px-Or-gate-en.svg.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img7" fitHeight="78.0" fitWidth="130.0" layoutX="601.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/2560px-Xor-gate-en.svg.png" />
+            <Image url="@../img/2560px-Xor-gate-en.svg.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img8" fitHeight="67.0" fitWidth="130.0" layoutX="156.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/Xnor-gate-en.svg.png" />
+            <Image url="@../img/Xnor-gate-en.svg.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img4" fitHeight="78.0" fitWidth="130.0" layoutX="601.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/1200px-Xnor-gate-en.svg.png" />
+            <Image url="@../img/1200px-Xnor-gate-en.svg.png" />
          </image>
       </ImageView>
       <ImageView fx:id="img2" fitHeight="67.0" fitWidth="130.0" layoutX="376.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/2560px-Not-gate-en.svg.png" />
+            <Image url="@../img/2560px-Not-gate-en.svg.png" />
          </image>
       </ImageView>
       <Rectangle fx:id="card" arcHeight="5.0" arcWidth="5.0" blendMode="MULTIPLY" fill="WHITE" height="115.0" layoutX="354.0" layoutY="446.0" stroke="BLACK" strokeType="INSIDE" width="173.0" />

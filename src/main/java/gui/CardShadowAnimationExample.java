@@ -1,29 +1,20 @@
-package com.example.demo1;
+package gui;
 
 import javafx.application.Application;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
-import javafx.animation.Timeline;
-import javafx.animation.KeyFrame;
-import javafx.util.Duration;
 
 import java.io.IOException;
 
 public class CardShadowAnimationExample extends Application {
 
-    @FXML
-    Rectangle card;
+
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        // Create a shadow animation for the card when the mouse is hovering over it
 
 
         // Show the stage

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="631.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Learning">
+   <children>
+      <ImageView fx:id="img1" fitHeight="1296.0" fitWidth="2310.0" layoutX="-1400.0" layoutY="-638.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/HD-wallpaper-java-logo.jpg" />
+         </image>
+      </ImageView>
+      <ScatterChart layoutX="121.0" layoutY="188.0" prefHeight="266.0" prefWidth="334.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" upperBound="2.0" />
+        </yAxis>
+      </ScatterChart>
+      <Slider fx:id="slide" layoutX="525.0" layoutY="299.0" max="1.0" />
+      <Label layoutX="595.0" layoutY="254.0" prefHeight="27.0" prefWidth="122.0" text="Learning rate">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="slidertext" layoutX="673.0" layoutY="293.0" text="0" />
+   </children>
+</AnchorPane>
