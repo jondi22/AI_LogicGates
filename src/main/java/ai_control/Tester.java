@@ -10,6 +10,7 @@ public class Tester {
         perceptron.train(DataSets.OR_DATA, 0.1);
         System.out.println(perceptron.getOutput(0, 0));
         System.out.println(perceptron.getOutput(0, 1));
+        System.out.println(perceptron.getOutput(1, 0));
         System.out.println(perceptron.getOutput(1, 1));
     }
 }

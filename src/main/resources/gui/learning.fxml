@@ -15,7 +15,7 @@
    <children>
       <ImageView fx:id="img1" fitHeight="1296.0" fitWidth="2310.0" layoutX="-1400.0" layoutY="-638.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../img/HD-wallpaper-java-logo.jpg" />
+            <Image url="@../img/HD-wallpaper-java-logo.jpg" />
          </image>
       </ImageView>
       <ScatterChart layoutX="121.0" layoutY="188.0" prefHeight="266.0" prefWidth="334.0">

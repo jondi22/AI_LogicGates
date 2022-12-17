@@ -31,7 +31,7 @@ public class Perceptron {
         for (int i = 0; i < noOfInputs; i++){
             bigX += (inputs[i] * weights.get(i));
         }
-        bigX -= (threshold * thresholdWeight);
+        bigX += (threshold * thresholdWeight);
         return activationFunction.activationFunctionValue(bigX);
     }
     public void train(ArrayList<Double[]> dataSet, double learningRate){
