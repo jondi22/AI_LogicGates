@@ -1,6 +1,6 @@
 package ai_control;
 
-import activation_functions.ActivationFunctionInterface;
+import ai_control.activation_functions.ActivationFunctionInterface;
 
 import java.util.ArrayList;
 

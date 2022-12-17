@@ -1,6 +1,6 @@
 package ai_control;
 
-import activation_functions.MultiLayerActivationFunctionInterface;
+import ai_control.activation_functions.MultiLayerActivationFunctionInterface;
 
 import java.util.ArrayList;
 

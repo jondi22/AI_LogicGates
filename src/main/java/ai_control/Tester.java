@@ -1,6 +1,6 @@
 package ai_control;
 
-import activation_functions.StepFunction;
+import ai_control.activation_functions.StepFunction;
 
 public class Tester {
 
