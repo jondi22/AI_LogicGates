@@ -3,6 +3,7 @@
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TextField?>
@@ -18,7 +19,7 @@
             <Image url="@../img/HD-wallpaper-java-logo.jpg" />
          </image>
       </ImageView>
-      <ScatterChart layoutX="121.0" layoutY="188.0" prefHeight="266.0" prefWidth="334.0">
+      <ScatterChart layoutX="75.0" layoutY="191.0" prefHeight="314.0" prefWidth="392.0">
         <xAxis>
           <CategoryAxis side="BOTTOM" />
         </xAxis>
@@ -26,11 +27,23 @@
           <NumberAxis side="LEFT" upperBound="2.0" />
         </yAxis>
       </ScatterChart>
-      <Slider fx:id="slide" layoutX="525.0" layoutY="299.0" max="1.0" />
-      <Label layoutX="595.0" layoutY="254.0" prefHeight="27.0" prefWidth="122.0" text="Learning rate">
+      <Slider fx:id="slide" layoutX="516.0" layoutY="372.0" max="1.0" />
+      <Label layoutX="594.0" layoutY="321.0" prefHeight="27.0" prefWidth="122.0" text="Learning rate">
          <font>
             <Font size="15.0" />
          </font></Label>
-      <TextField fx:id="slidertext" layoutX="673.0" layoutY="293.0" text="0" />
+      <TextField fx:id="slidertext" layoutX="684.0" layoutY="367.0" text="0" />
+      <Button layoutX="559.0" layoutY="429.0" mnemonicParsing="false" onAction="#Start" prefHeight="52.0" prefWidth="234.0" text="Start learning" />
+      <Label fx:id="header" layoutX="338.0" layoutY="54.0" prefHeight="66.0" prefWidth="234.0" text="AND gate">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imge" fitHeight="150.0" fitWidth="200.0" layoutX="559.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/and.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="text" layoutX="676.0" layoutY="120.0" visible="false" />
    </children>
 </AnchorPane>
